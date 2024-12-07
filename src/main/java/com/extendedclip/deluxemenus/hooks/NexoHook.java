@@ -2,6 +2,7 @@ package com.extendedclip.deluxemenus.hooks;
 
 import com.extendedclip.deluxemenus.cache.SimpleCache;
 import com.nexomc.nexo.api.NexoItems;
+import com.nexomc.nexo.items.ItemBuilder;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;

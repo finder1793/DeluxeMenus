@@ -52,11 +52,11 @@ tasks {
         relocate("net.kyori", "com.extendedclip.deluxemenus.libs.adventure")
         archiveFileName.set("DeluxeMenus-${rootProject.version}.jar")
     }
-    java {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
     }
-
+}
     processResources {
         filesMatching("plugin.yml") {
             expand("version" to rootProject.version)

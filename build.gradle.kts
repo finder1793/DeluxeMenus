@@ -33,6 +33,7 @@ dependencies {
     compileOnly(libs.mythiclib)
     compileOnly(libs.mmoitems)
     compileOnly(libs.score)
+    compileOnly(libs.nexo)
 
     compileOnly(libs.papi)
 

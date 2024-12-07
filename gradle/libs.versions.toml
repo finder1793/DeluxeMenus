@@ -10,6 +10,7 @@ mythiclib = "1.6.2-SNAPSHOT"
 mmoitems = "6.9.5-SNAPSHOT"
 papi = "2.11.6"
 score = "4.23.10.8"
+nexo = "0.3.0"
 
 # Implementation
 nashorn = "15.4"
@@ -28,6 +29,7 @@ mythiclib = { module = "io.lumine:MythicLib-dist", version.ref = "mythiclib"}
 mmoitems = { module = "net.Indyuce:MMOItems-API", version.ref = "mmoitems" }
 papi = { module = "me.clip:placeholderapi", version.ref = "papi" }
 score = { module = "com.github.Ssomar-Developement:SCore", version.ref = "score" }
+nexo = { module = "com.nexomc:nexo", version.ref = "oraxen" }
 
 # Implementation
 nashorn = { module = "org.openjdk.nashorn:nashorn-core", version.ref = "nashorn" }

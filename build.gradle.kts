@@ -19,6 +19,7 @@ repositories {
     maven("https://repo.glaremasters.me/repository/public/")
     maven("https://nexus.phoenixdevt.fr/repository/maven-public/")
     maven("https://jitpack.io")
+    maven("https://repo.nexomc.com/releases")
 }
 
 dependencies {
